@@ -1,0 +1,47 @@
+{
+  "instellingen": {
+    "model_a": "llama3.1",
+    "model_b": "qwen3",
+    "rondes": 50,
+    "taal": "Nederlands",
+    "max_woorden": 150,
+    "temperatuur": 0.8,
+    "num_ctx": 16384,
+    "samenvatting": true,
+    "samenvatting_model": null,
+    "samenvatting_blok": 10,
+    "logmap": "logs",
+    "ollama_host": "http://localhost:11434",
+    "rondeteller": true,
+    "herhaling_drempel": 0.45,
+    "herhaling_vergelijk": 4,
+    "herhaling_herkansing": true,
+    "repeat_penalty": 1.15,
+    "repeat_last_n": 256,
+    "weigering_herkansing": true,
+    "openingen_vermijden": 3
+  },
+  "debatten": [
+    {
+      "id": "ai-werk",
+      "titel": "Neemt AI onze jobs over?",
+      "onderwerp": "Stelling: binnen tien jaar zal AI meer banen vernietigen dan creëren.",
+      "partner_a": {
+        "naam": "De Optimist",
+        "identiteit": "Een enthousiaste tech-ondernemer die gelooft dat elke technologische revolutie uiteindelijk meer en betere banen oplevert.",
+        "standpunt": "Tegen de stelling: AI zal op termijn meer banen creëren dan vernietigen."
+      },
+      "partner_b": {
+        "naam": "De Sceptische Sysadmin",
+        "identiteit": "Een sceptische system engineer met 20 jaar ervaring in IT. Hij heeft al heel wat 'revolutionaire' technologieën zien komen en gaan, kent de realiteit van legacy-systemen, budgetten en mislukte implementaties, en gelooft pas iets als hij het in productie heeft zien draaien.",
+        "standpunt": "Voor de stelling: AI zal binnen tien jaar meer banen vernietigen dan creëren."
+      }
+    },
+    {
+      "id": "koffie-thee",
+      "onderwerp": "Wat is beter: koffie of thee?",
+      "partner_a": "Barista",
+      "partner_b": "Theemeester"
+    }
+  ]
+}
