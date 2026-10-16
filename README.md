@@ -111,8 +111,10 @@ Daarna volgde een tweede les: een model dat één keer weigert ("Ik kan dit deba
 - [x] Python-omgeving klaarzetten
 - [x] Python-script dat twee modellen met elkaar laat praten
 - [x] Eerste testdebat (3 rondes)
-- [ ] Volledig debat van 50 rondes
-- [x] Bevindingen delen
+- [x] Volledig debat van 50 rondes (café-gesprek, ±35 min)
+- [ ] Nederlandstalige modellen testen (ChocoLlama) voor natuurlijker Nederlands
+- [ ] Volwaardige Engelse debatten (taal per debat, instructies in NL en EN)
+- [x] Bevindingen delen (deze README, zie "Wat ik onderweg leerde")
 
 ## Licentie
 

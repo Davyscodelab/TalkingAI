@@ -4,7 +4,7 @@
     "model_b": "qwen3",
     "rondes": 50,
     "taal": "Nederlands",
-    "max_woorden": 150,
+    "max_woorden": 60,
     "temperatuur": 0.8,
     "num_ctx": 16384,
     "samenvatting": true,
@@ -42,6 +42,22 @@
       "onderwerp": "Wat is beter: koffie of thee?",
       "partner_a": "Barista",
       "partner_b": "Theemeester"
+    },
+    {
+      "id": "toog",
+      "titel": "Op café: aan den toog",
+      "onderwerp": "Een vrijdagavond op café. Twee vaste klanten zitten aan den toog en babbelen over van alles: het weer, voetbal, de prijs van een pint, de buren, de jeugd van tegenwoordig, wat er vroeger beter was. Spreek spontaan en informeel, in korte zinnen, zoals mensen op café praten. Spring gerust van het ene onderwerp naar het andere.",
+      "rondes": 50,
+      "partner_a": {
+        "naam": "Jef",
+        "identiteit": "Een gepensioneerde postbode van 67, komt al dertig jaar in hetzelfde café. Kent iedereen, heeft over alles een mening en begint graag zinnen met 'Vroeger…'.",
+        "standpunt": "Vroeger was alles beter: de pintjes, het voetbal, de mensen."
+      },
+      "partner_b": {
+        "naam": "Kevin",
+        "identiteit": "Een dertiger die in de IT werkt, komt sinds kort na het werk iets drinken. Goedgezind, een beetje eigenwijs en altijd met zijn gsm in de hand.",
+        "standpunt": "Vandaag is alles beter: meer keuze, betere bieren en alles staat op je gsm."
+      }
     }
   ]
 }
