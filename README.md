@@ -112,7 +112,7 @@ Daarna volgde een tweede les: een model dat één keer weigert ("Ik kan dit deba
 - [x] Python-script dat twee modellen met elkaar laat praten
 - [x] Eerste testdebat (3 rondes)
 - [ ] Volledig debat van 50 rondes
-- [ ] Bevindingen delen
+- [x] Bevindingen delen
 
 ## Licentie
 
